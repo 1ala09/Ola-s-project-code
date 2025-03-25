@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ui.css">
+    <script src="ui.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+        <nav class="header">
+            <div>
+                <button class="harmburger" onclick="burgerMenu()"><img src="image 15.png" class="bar"></button>
+            </div>
+            
+            <ul>
+                <div class="logo">COOK</div>
+                <div class="separator"></div>
+                <div class="realimg"><img src="image 3.png" class="img"></div><div class="menu">Cooking Classes</div>
+                <div class="realimg"><img src="image 3 (1).png" class="img"></div><div class="menu" id="chef">Become A Chef</div>
+                <div class="realimg"><img src="image 3 (2).png" class="img"></div><div class="menu" id="cook">Group Cooking</div>
+                <li><div class="menu2" id="menu01">Eng <img src="Polygon 1.png" id="polygonImg1" onclick="languageDisplay()" class="img1"></div></li>
+                <li><div class="menu2" id="menu02">USD <img src="Polygon 1.png" id="polygonImg2" onclick="currencyDisplay()" class="img1"></div></li>
+                <li><div class="separator1" id="separator11"></div></li>
+                <li><div class="realinfoImg"><img src="info.png" class="infoImg"></div></li>
+                <li><div class="separator1" id="separator22"></div></li>
+                <li><div class="menu3" id="logindiv"><button class="login">Log In <img src="log-in.png" class="loginImg"></button></div></li>
+            </ul>
+            
+
+            <div class="dropboxcontainer1">
+                <div class="dbhead">
+                    <button id="close" onclick="cancel()"><img src="Frame 172.png" class="xbtn"></button>
+                    <div class="headItems" id="log_in"><img src="log-in.png" class="logbtn"></div>
+                </div>
+                <div class="dbBody">
+                    <div class="BodyItems">Cooking Classes</div>
+                    <div class="BodyItems">Become a Chef</div>
+                    <div class="BodyItems">Group Cooking</div>
+                    <div class="BodyItems">Support</div>
+                    <div class="BodyItems">English<img src="Polygon 1 (1).png" class="whitePolygon" onclick="displayLang()"></div>
+                    <div class="language">
+                        <form class="formContainer">
+                            <label style="color:#252422; font-size: 18px; font-weight:700; font-family: Outfit;">Select a language</label>
+                            <img src="britFlag.png" id="britian" class="langImg">
+                            <input type="text" value="English" class="inpt" readonly>
+                            <img src="germFlag.png" id="german" class="langImg">
+                            <input type="text" value="German" class="inpt" readonly>
+                            <img src="chinFlag.png" id="chinese" class="langImg">
+                            <input type="text" value="Chinese" class="inpt" readonly>
+                            <img src="itFlag.png" id="italian" class="langImg">
+                            <input type="text" value="Italian" class="inpt" readonly>
+                            <img src="hebFlag.png" id="hebrew" class="langImg">
+                            <input type="text" value="Hebrew" class="inpt" readonly>
+                        </form>
+                    </div>
+                    <div class="BodyItems">Currency <img src="Polygon 1 (1).png" class="whitePolygon" onclick="displayCurrency()"></div>
+                    <div class="currency">
+                        <form class="formContainer2">
+                            <label style="color:#252422; font-size: 18px; font-weight:700; font-family: Outfit;">Select a currency</label>
+                            <input type="text" value="USD" class="inpt2" readonly>
+                            <input type="text" value="EUR" class="inpt2" readonly>
+                            <input type="text" value="UAH" class="inpt2" readonly>
+                            <input type="text" value="GBP" class="inpt2" readonly>
+                            <input type="text" value="CHF" class="inpt2" readonly>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="LangCurrency">
+            <form class="formContainer">
+                <label style="color:#252422; font-size: 18px; font-weight:700; font-family: Outfit;">Select a language</label>
+                <img src="britFlag.png" id="britian" class="langImg">
+                <input type="text" value="English" class="inpt" readonly>
+                <img src="germFlag.png" id="german" class="langImg">
+                <input type="text" value="German" class="inpt" readonly>
+                <img src="chinFlag.png" id="chinese" class="langImg">
+                <input type="text" value="Chinese" class="inpt" readonly>
+                <img src="itFlag.png" id="italian" class="langImg">
+                <input type="text" value="Italian" class="inpt" readonly>
+                <img src="hebFlag.png" id="hebrew" class="langImg">
+                <input type="text" value="Hebrew" class="inpt" readonly>
+            </form>
+        </div>
+        <div class="LangCurrency2">
+            <form class="formContainer2">
+                <label style="color:#252422; font-size: 18px; font-weight:700; font-family: Outfit;">Select a currency</label>
+                <input type="text" value="USD" class="inpt2" readonly>
+                <input type="text" value="EUR" class="inpt2" readonly>
+                <input type="text" value="UAH" class="inpt2" readonly>
+                <input type="text" value="GBP" class="inpt2" readonly>
+                <input type="text" value="CHF" class="inpt2" readonly>
+            </form>
+        </div>
+
+        <div class="body">
+            <div class="bodyContent1">
+                <div class="boldText">Master the Art of Cooking with <h7 class="fancy">Experts</h7> Worldwide</div>
+                <div class="lightText">Experience the joy of cooking in a whole new way with our engaging online cooking classes. Learn from the chefs, share your unique culinary knowledge, and join our growing foodie community. With COOK, learning, and teaching becomes a shared passion.</div>
+                <div class="cookVideo"><img src="play-circle.png" class="playImg">Learn more in the COOK video</div>
+                <div class="cookVideo1"><img src="play-circle.png" class="playImg1">Watch a video</div>
+                <div class ="buttons">
+                    <button class="FJbtn" id="tutor">Find Your Tutor</button>
+                    <button class="FJbtn" id="chefs">Join Our Chefs</button>
+                </div>
+            </div>
+            <div class="bodyContent2">
+                <img src="Hero Img (3).png" class="bodyImg">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line" id = "line1"></div>
+            <div class="PageBottom">
+                <div class="design">
+                    <div class="textUp">100+</div>
+                    <div class="textDown">Talented chefs</div>
+                </div>
+                <div class="design">
+                    <div class="textUp">1000+</div>
+                    <div class="textDown">Students</div>
+                </div>
+                <div class="design">
+                    <!--<div class="rating">-->
+                    <div class="textUp" id="textUp1">4.8<img src="Vector.png" class="vector"></div>
+                    <!--</div>-->
+                    <div class="textDown">Rating</div>
+                </div>
+                <div class="design">
+                    <div class="textUp">20+</div>
+                    <div class="textDown">Cooking Categories</div>
+                </div>
+            </div>
+            <div class="line" id = "line2"></div>
+        </div>
+    </div>
+</body>
+</html>

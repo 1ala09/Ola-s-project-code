@@ -1,0 +1,705 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #ffffff;
+    margin: 0 auto;
+}
+.logo, .separator{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav{
+    padding: 12px;
+    border-bottom: 1px solid #FFDBB8;
+    position: fixed;
+    background: #ffffff;
+    height: 60px;
+    width: 100%;
+    top:0;
+}
+nav ul{
+    float:left;
+    display:flex;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size:16px;
+}
+.separator {
+    height: 15px;
+    border: 2px solid #FFDBB8;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 16px;
+}
+.separator1{
+    height: 15px;
+    border: 2px solid #FFDBB8;
+    margin-top: 14px;
+    border-radius: 16px;
+    display:inline-block;
+    vertical-align: middle;
+}
+#polygonImg2{
+    margin-right: 27px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#polygonImg1{
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+
+.realimg, .menu{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.menu2, .realimg1{
+    display:inline-block;
+    vertical-align: middle;
+}
+.menu3{
+    display:inline-block;
+    vertical-align: middle;
+}
+.realinfoImg{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    margin-left: 0px;
+    font-size: 32px;
+    max-width:100%;
+    color: #D27722;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.img{
+    height:24px;
+    width:24px;
+    margin-top: 6px;
+    margin-bottom: 28px;
+}
+.img1{
+    width:12px;
+    height:7px;
+}
+.infoImg{
+    height:24px;
+    width:24px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:12px;
+}
+.menu {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-family: Outfit;
+}
+.menu2 {
+    font-size: 18px;
+    margin-top: 12px;
+    font-family: Outfit;
+    display:flex;
+}
+#menu01{
+    font-size: 18px;
+    margin-left: 250px;
+    font-family: Outfit;
+}
+
+.whatIf{
+    display: flex;
+    justify-content: space-around;
+}
+#menu02 {
+    margin-left: 28px;
+}
+.LangCurrency{
+    position: fixed;
+    top:80px;
+    right: 400px;
+    display:none;
+}
+.LangCurrency2{
+    position: fixed;
+    top:80px;
+    right:30px;
+    display: none;
+}
+.language.open{
+    display:block;
+}
+.currency.open{
+    display:block
+}
+.login {
+    width: 131px;
+    height: 41px;
+    background: #D27722;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Outfit;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    max-width: 100%;
+}
+.inpt{
+    cursor:pointer
+}
+.inpt2{
+    cursor:pointer
+}
+.loginImg {
+    width: 18px;
+    height: 18px;
+}
+
+.bodyImg {
+    width: 518px;
+    height: 407px;
+    border-radius: 32px;
+    margin-top:25px;
+}
+
+.body {
+    margin-top: 145px;
+    margin-left: 35px;
+    margin-right: 95px;
+    display: flex;
+}
+
+.bodyContent1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.boldText {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 112.9%;
+    letter-spacing: -4%;
+    
+}
+
+.lightText {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 160%;
+    width: 533px;
+    height: 104px;
+    font-family: Outfit;
+    color: #403D39;
+    font-weight: 400;
+    letter-spacing: -4%
+}
+
+.fancy{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #D27722;
+    font-size: 48px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.cookVideo {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Outfit;
+    display: flex;
+    color: #252422;
+    margin-top: 20px;
+}
+
+.cookVideo1 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Outfit;
+    display: flex;
+    color: #252422;
+    margin-top: 20px;
+    display: none;
+}
+.playImg {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px; 
+}
+.playImg1 {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px; 
+}
+
+.FJbtn {
+    width: 153px;
+    height: 39px;
+    margin: 15px;
+    margin-top: 3px;
+    margin-left: 0;
+    background: #D27722;
+    font-family: Outfit;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+#chefs {
+    color:#D27722;
+    background: #ffffff;
+    border: 2px solid #D27722;
+}
+
+.footer {
+    margin-top: 148px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.PageBottom {
+    width: 1085px;
+    height: 148px;
+    border-radius: 16px;
+    background: #FFFDF4;
+    border: 1px solid #FFDBB8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    border-top: 1px solid #FFDBB8;
+    width:140px;
+    margin-top: 74px;
+}
+
+.design {
+    margin-top: 43px;
+}
+
+.textUp {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #D27722;
+}
+
+.textDown {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #403D39;
+    text-align: center;
+}
+
+.vector{
+    width: 27px;
+    height: 25px;
+    margin-bottom: 2px;
+    
+}
+
+.harmburger{
+    display: none;
+    float:right;
+    width: 41px;
+    height: 41px;
+    background: #D27722;
+    border: none;
+    border-radius: 12px;
+}
+.bar{
+    width:21px;
+    height:21px;
+}
+
+.dropboxcontainer1{
+    background: #D27722;
+    height: 844px;
+    width: 400px;
+    position: fixed;
+    right:0;
+    top: 0;
+    display: none;
+}
+.dbhead{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+}
+.dbBody{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Outfit;
+}
+.xbtn{
+    width: 35px;
+    height: 35px;
+}
+#close{
+    border: none;
+    margin-right: 150px;
+    background: #D27722;
+}
+.dbBody{
+    margin-top: 55px;
+}
+.BodyItems{
+    margin: 30px;
+}
+.logbtn{
+    width: 43px;
+    height: 43px;
+}
+
+.whitePolygon{
+    width:16px;
+    height: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.LangCurrency.open{
+    display: block;
+}
+.LangCurrency2.open{
+    display: block;
+}
+.open{
+    display: block;
+}
+.language{
+    display: none;
+}
+.formContainer{
+    height: 290px;
+    width: 255px;
+    background:#ffffff;
+    border: 1px solid #FFDBB8;
+    padding: 16px;
+    border-radius: 6px;
+    position: absolute;
+}
+.inpt{
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid #FFEEDD;
+    padding: 8px 12px 8px 45px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500px;
+}
+input[type=text]:focus {
+  background-color: #FFDBB8;  
+}
+.langImg{
+    width:16px;
+    height:16px;
+    position: absolute;
+    left:30px;
+}
+#britian{
+    position:absolute;
+    top: 72.5px;
+    
+}
+#german{
+    position:absolute;
+    top:126px;
+    
+}
+#chinese{
+    position: absolute;
+    top: 179px;
+}
+#italian{
+    position: absolute;
+    top: 232px;
+}
+#hebrew{
+    position: absolute;
+    top: 284px;
+}
+.currency{
+    display: none;
+}
+
+.formContainer2{
+    height: 290px;
+    width: 255px;
+    background:#ffffff;
+    border: 1px solid #FFDBB8;
+    padding: 16px;
+    border-radius: 6px;
+    
+}
+.inpt2{
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid #FFDBB8;
+    padding: 8px 12px 8px 20px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+/* Media Query (Tablet)*/
+@media screen and (max-width: 834px) {
+    nav{
+        border-bottom: none;
+        
+    }
+    .logo {
+        margin-top: 8px;
+        margin-left: 0px;
+        font-size: 27px;
+    }
+    .separator1{
+        margin-left: 10px;
+    }
+    .separator {
+        display: none;
+    }
+    .img{
+        display: none;
+        height:19px;
+        width:19px;
+    }
+    .img1{
+        height:7px;
+        width:12px;
+    }
+    .infoImg{
+        height:19px;
+        width:19px;
+    }
+    .menu {
+        display: none;
+        font-size: 13px;
+    }
+    
+    .menu2 {
+        font-size: 13px;
+    }
+    /*.img{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }*/
+    .body{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-left: 79px;
+    }
+    .lightText{
+        margin-left: 55px;
+        width: 533px;
+        max-width: 100%;
+    }
+    .cookVideo{
+        display:none;
+    }
+    .cookVideo1{
+        display:block;
+        display: flex;
+        justify-content: center;  
+    }
+    .boldText{
+        font-size: 44.8px;    
+    }
+    .fancy{
+        font-size: 41px;
+    }
+    .bodyContent2{
+        margin-bottom: 50px;
+    }
+    .bodyImg{
+        margin-top: 1px;
+        width: 615px;
+        height: auto;
+        margin-left: 13px;
+        max-width: 100%;
+
+    }
+    .PageBottom {
+        width: 738px;
+        height: auto;
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+    .textUp {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    .textDown {
+        font-size: 12px;
+    }
+    
+    
+    
+}
+/*tablet*/
+@media screen and (max-width: 774px){
+    #menu01{
+        margin-left:200px;
+    }
+}
+/*tablet*/
+@media screen and (max-width: 723px){
+    #menu01{
+        margin-left:150px;
+    }
+}
+/*tablet*/
+@media screen and (max-width: 672px){
+    #menu01{
+        margin-left:100px;
+    }
+}
+/*tablet*/
+@media screen and (max-width: 625px){
+    #menu01{
+        margin-left:50px;
+    }
+}
+/*tablet*/
+@media screen and (min-width:481px) and  (max-width: 571px){
+    #menu01{
+        margin-left:1vw;
+    }
+    .login{
+        width: 100%;
+        height: 41px;
+    }
+}
+
+/* media query (mobile) */
+@media screen and (max-width: 480px) {
+    .body{
+        flex-direction: column-reverse;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .logo{
+        margin-top:0px;
+    }
+    nav{
+        border-bottom: none;
+    }
+    .separator {
+        display: none;
+    }
+    .separator1{
+        display:none;
+    }
+    .img{
+        display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .menu3{
+        display:none;
+    }
+    .menu2 {
+        display: none;
+    }
+    .infoImg{
+        display: none;
+    }
+    .bodyImg{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-left:0px;
+        margin-right:0;
+    }
+    .boldText{
+        margin-top: 0px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .fancy{
+        font-size: 32px;
+    }
+    .lightText{
+       width: 416px;
+       max-width: 100%;
+       margin-bottom: 30px;
+       text-align: center;
+       margin-left: 30px;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .FJbtn{
+        width: 416px;
+        margin-left: 10px;
+        font-size: 18px;
+        margin: 15px;
+        max-width: 100%;
+    }
+    .line{
+        display:none;
+    }
+    .footer {
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    .PageBottom {
+        width: 416px;
+        height: 604px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+    }
+    .textUp{
+        font-size: 50px;
+    }
+    .cookVideo{
+        display:none;
+    }
+    .cookVideo1{
+        display:block;
+        display: flex;
+        justify-content: center;  
+    }
+    .harmburger{
+        display:block;
+        margin-right:50px;
+        margin-top: 10px;
+    }
+    .body{
+        margin-top: 75px;
+    }
+    
+}
